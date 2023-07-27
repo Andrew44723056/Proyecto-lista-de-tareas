@@ -1,7 +1,11 @@
+body {
+  background-image: url(https://www.saborusa.com/wp-content/uploads/2022/12/Foto-esc%C3%A9nica-del-pueblo-pesquero-de-invierno-con-luces-del-norte-1280x1024.jpg);
+}
 .lolo {
   display: flex;
   justify-content: center;
   font-family: Arial, Helvetica, sans-serif;
+  color: aqua;
 }
 .circulo {
   border: 2px solid black;
@@ -12,7 +16,6 @@
   display: flex;
   align-items: center;
 }
-
 .papa {
   display: flex;
   justify-content: space-around;
@@ -22,9 +25,7 @@
   display: flex;
   margin: left;
   align-items: center;
-}
-.izquierda {
-  padding: 15px;
+  color: gainsboro;
 }
 .forma {
   margin: 15px;
@@ -32,23 +33,17 @@
 .forma2 {
   margin: 15px;
 }
-.boton1 {
-  background-color: black;
-  padding: 10px;
-  padding-right: 125.9px;
-  color: white;
-}
+
 .agregar {
   padding: 10px;
 }
 .contenedor {
   border: 1px solid black;
   height: auto;
-  width: 1000px;
+  width: auto;
   justify-content: flex;
   max-width: 80%;
 }
-
 form {
   display: flex;
 }
@@ -57,16 +52,6 @@ input {
   padding: 1px 1px;
   outline: none;
   width: 200px;
-}
-
-.li-container {
-  background-color: white;
-  width: 100%;
-  color: rgb(22, 71, 71);
-  margin-top: 20px;
-}
-ul {
-  padding: 0;
 }
 li {
   list-style: none;
@@ -79,6 +64,7 @@ li p {
   margin: 0;
   padding: 10px;
   width: 100%;
+  overflow: hidden;
 }
 .boton1 {
   padding: 5px 25px;
@@ -90,6 +76,9 @@ li p {
   outline: none;
   cursor: pointer;
 }
-.empty {
-  color: darkslategrey;
+.butonDelete > img {
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  margin-right: 6px;
 }
